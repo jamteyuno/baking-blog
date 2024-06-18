@@ -4,14 +4,22 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Sourdough Baking -  a journey of mindfulness, creativity and deliciousness.
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`In a tiny kitchen corner, amidst flour-dusted countertops and the soft glow of a warm oven, the art of sourdough baking comes to life.`}
+      </p>
+      <p className="mb-4">
+        {`Here at "Bytesize Cafe," every loaf tells a tale of patience and tradition, where flour, water, and wild yeast merge in a slow dance of fermentation. 
+        The air is filled with the tangy scent of a young sourdough starter, lovingly nurtured over the months. 
+
+        As hands expertly knead and shape each dough ball, anticipation builds for the moment when crusty, golden-brown loaves emerge, 
+        their crackling crusts yielding to reveal a chewy, flavorful crumb within.`}
+      </p>
+      <p className="mb-4">
+        {`
+         In this humble kitchen, sourdough isn't just bread—it's a labor of love, a testament to craftsmanship, 
+         and a celebration of the simple joy found in the alchemy of flour and time.`}
       </p>
       <div className="my-8">
         <BlogPosts />
